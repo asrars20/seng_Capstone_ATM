@@ -60,11 +60,21 @@ def run_admin_program(accounts):
             # Admin Commands
             print(f'{"0 : View All":20} {"1 : View Last":16s}')
             print(f'{"2 : Average Balance":20s} {"3 : Maximum":16s}')
-            print(f'{"4 : Minimum":20s} {"5 : Flagged":16s}')
-            print(f'{"6 : Return to Main Menu":20s}\n')
+            print(f'{"4 : Minimum":20s} {"5 : Return to Main Menu":20s}\n' )
+
 
             # Ask Admin for Next Command
             user_input = input('Enter your selection:\n')
+            if user_input == '0' or user_input == 'View All':
+                print ('test')
+            if user_input == '1' or user_input == 'View Last':
+                print ('test')
+            if user_input == '2' or user_input == 'Average Balance':
+                print('test')
+            if user_input == '3' or user_input == 'Minimum':
+                print('test')
+
+
 
             # If the user chooses the 'EXIT' command, restart/re-run the program.
             if user_input == '6' or user_input == 'exit':
@@ -120,4 +130,4 @@ def run_admin_program(accounts):
             user_input = input('Enter your selection:\n')
 
     print('\n\nThank you for using XYZ Bank. Have a great day!')
-print ('test commit')
+
