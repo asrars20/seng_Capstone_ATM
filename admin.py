@@ -73,6 +73,7 @@ def run_admin_program(accounts):
                 print('test')
             if user_input == '3' or user_input == 'Minimum':
                 print('test')
+                print()
 
 
 
